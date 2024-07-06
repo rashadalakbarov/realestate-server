@@ -22,6 +22,11 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             UserSeeder::class,
+            ProfileUserSeeder::class,
+            PropertyDetailSeeder::class,
+            PropertyImagesSeeder::class,
+            PropertyLocationSeeder::class,
+            PropertySeeder::class,
         ]);
     }
 }
